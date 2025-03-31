@@ -1,0 +1,14 @@
+/home/pasha/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/pasha/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/pasha/CLionProjects/untitled -B /home/pasha/CLionProjects/untitled/cmake-build-debug
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Found XKB: /usr/lib/libxkbcommon.so (found suitable version "1.8.1", minimum required is "0.5.0")
+-- Found WrapVulkanHeaders: /usr/include
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pasha/CLionProjects/untitled/cmake-build-debug
