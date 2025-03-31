@@ -70,11 +70,11 @@ public:
         int pivotY = height() / 2;
 
         // Draw bar
-        painter.setPen(Qt::white);
+        painter.setPen(Qt::black);
         painter.drawLine(pivotX - (barLength * unit), pivotY, pivotX + (playerLength * unit), pivotY);
 
         // Mark pivot point
-        painter.setBrush(Qt::white);
+        painter.setBrush(Qt::black);
         painter.drawEllipse(pivotX - 5, pivotY - 5, 10, 10);
 
         // Draw left weight
@@ -83,7 +83,7 @@ public:
         painter.drawText(pivotX - (barLength * unit) - 10, pivotY - 20, QString::number(barWeight));
         
         // Display the left bar length to the left of the ball (moved further left)
-        painter.setPen(Qt::white);
+        painter.setPen(Qt::black);
         painter.drawText(pivotX - (barLength * unit) - 90, pivotY + 5, QString("Length: %1").arg(barLength));
 
         // Draw right weight (user selection)
@@ -92,7 +92,7 @@ public:
         painter.drawText(pivotX + (playerLength * unit) - 10, pivotY - 20, playerWeight == 0 ? "?" : QString::number(playerWeight));
         
         // Display the right bar length at the outer side of the right ball
-        painter.setPen(Qt::white);
+        painter.setPen(Qt::black);
         painter.drawText(pivotX + (playerLength * unit) + 20, pivotY + 5, QString("Length: %1").arg(playerLength));
     }
 
